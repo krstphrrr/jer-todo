@@ -57,6 +57,9 @@
   - [ ] setup ha proxy with ldcdb-1 and ldcdb-2 (requires replicated db to be ready)
 
 - edit (x.146)
-  - 
+  - [ ] containerize symphony + edit app
+  - [ ] plug in to github actions 
+  - [ ] plublish container logs to log collector (x.153)
+  - [ ] deploy on x.146 but proxy through x.153
 
 
