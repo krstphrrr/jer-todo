@@ -9,10 +9,10 @@
   - [ ] resolve script to update db 
 
 - new LDC (x.154)
-  - $${\color{currently running fastify API.}Green}$$
-  - $${\color{proxied through x.153 }Green}$$
-  - $${\color{required domain change at NMSU netreg from x.184 to x.153. }Green}$$
-  - $${\color{queries data from HA Proxy at x.153, which in turn queries from pgbnc-1  (x.216) or on pgbnc-2(x.188), which in turns queries from LDCDB either on ldcdb-1 (x.155) or ldcdb-2 (x.188)}Green}$$
+  - ```diff + currently running fastify API.```
+  - ```diff + proxied through x.153 ```
+  - ```diff + required domain change at NMSU netreg from x.184 to x.153.```
+  - ```diff + queries data from HA Proxy at x.153, which in turn queries from pgbnc-1  (x.216) or on pgbnc-2(x.188), which in turns queries from LDCDB either on ldcdb-1 (x.155) or ldcdb-2 (x.188) ```
 
 - LDCDB
   - [ ] complete the logical replication from ldcdb x.155 to x.188
@@ -49,9 +49,9 @@
   - [ ] update CICD script
 
 - web (x.153)
-  - $${\color{proxies databases using HA Proxy }Green}$$
-  - $${\color{proxies other web apps through nginx into public internet through 443}Green}$$
-  - $${\color{collects logs from other docker setups and exposes that endpoint on a jornada subdomain. Green}$$
+  - ```diff + proxies databases using HA Proxy ```
+  - ```diff + proxies other web apps through nginx into public internet through 443 ```
+  - ```diff + collects logs from other docker setups and exposes that endpoint on a jornada subdomain. ```
   - [x] configure log collector 
     - [ ] configure the log driver for **all** container apps on new VM's 
   - [ ] setup ha proxy with ldcdb-1 and ldcdb-2 (requires replicated db to be ready)
