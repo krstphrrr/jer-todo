@@ -49,7 +49,8 @@
   - [ ] update CICD script
 
 - web (x.153)
-  - ```diff + proxies databases using HA Proxy ```
+  - ```diff 
+    + proxies databases using HA Proxy ```
   - ```diff + proxies other web apps through nginx into public internet through 443 ```
   - ```diff + collects logs from other docker setups and exposes that endpoint on a jornada subdomain. ```
   - [x] configure log collector 
