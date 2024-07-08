@@ -3,10 +3,10 @@
   - [ ] ensure bigger dimas (NDOW) can be ingested using the accdb to csv method
   - wishlist: refactor command line part
 
-- API 
- - [ ] update permissions to remove ndow: aws plugin, .env file, PG connection functions etc. 
- - [ ] update the cognito:groups on the AWS dashboard
- - [ ] adopt LEGAL / PUBLICATION framework for permissions
+- API
+  - [ ] update permissions to remove ndow: aws plugin, .env file, PG connection functions etc. 
+  - [ ] update the cognito:groups on the AWS dashboard
+  - [ ] adopt LEGAL / PUBLICATION framework for permissions
 
 - TALL TABLE
   - [ ] ingest tblRHEM
