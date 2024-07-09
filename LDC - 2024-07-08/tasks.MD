@@ -20,7 +20,8 @@
   - [ ] develop SQL function to read the latest schemaplan to keep the database structure up to date
   - [ ] go with 1.1.9 csv: create a python script to pull csv from 
   - [ ] clean up the semver folder: archive directory and latest one outside
-  
+
   - [ ] Stone Enviorenmental layers
     - [ ] restore geoserver on jornada.nmsu
     - [ ] ingest 30+ 4k rasters to ldc database
+    - [ ] connect geoserver to ldc once the rasters are loaded
