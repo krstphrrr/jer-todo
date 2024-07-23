@@ -1,12 +1,13 @@
 ## 2024-07-08
-- runners
-  - [ ] create sidecar docker in docker compose file
-  - [ ] determine if there is any port access issue between x.174 and github. Does it have to be proxied by web (x.153)?
-  - [ ] migrate JER runner from x.187 to x.174
-  - [ ] migrate LDC runner from x.184 to x.174 
+- runners (x.174)
+  - [x] create sidecar docker in docker compose file
+  - [x] determine if there is any port access issue between x.174 and github. Does it have to be proxied by web (x.153)?
+  - [x] create runner with sidecar
+    - [ ] migrate JER runner from x.187 to x.174
+    - [ ] migrate LDC runner from x.184 to x.174 
 
-- RMA (x.148)
-  - [ ] resolve script to update db 
+- RMA/AGRisk (x.148)
+  - [x] resolve script to update db 
 
 - new LDC (x.154)
   - currently running fastify API.
@@ -38,9 +39,8 @@
     - [ ] update netreg entry from x.140 to web (x.153)
 
 - apps (x.159)
-  - [ ] migrate from swb-apps (x.169) to apps (x.159)
-    - [ ] download physical backup of site
-    - [ ] update netreg entry from x.140 to web (x.153)
+  - [x] migrate from swb-apps (x.169) to apps (x.159)
+    - [ ] update apache entry on x.139 
 
 - rap (x.175) 
   - [ ] migrate from LDC2 (x.184) to rap (x.175)
