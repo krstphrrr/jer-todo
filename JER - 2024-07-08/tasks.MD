@@ -23,24 +23,24 @@
       - db-update user would run the update or replace function from appleboy/ssh-master on commits.
 
 - AIM (x.158)
-  - [ ] migrate from k8s (x.140) to aim (x.158)
-    - [ ] download physical backup of site
-    - [ ] update netreg entry from x.140 to web (x.153)
+  - [x] migrate from k8s (x.140) to aim (x.158)
+    - [x] download physical backup of site
+    - [x] update netreg entry from x.140 to web (x.153)
   
 
 - learn (x.157)
-  - [ ] migrate from k8s (x.140) to learn (x.157)
-    - [ ] download physical backup of site
-    - [ ] update netreg entry from x.140 to web (x.153)
+  - [x] migrate from k8s (x.140) to learn (x.157)
+    - [x] download physical backup of site
+    - [x] update netreg entry from x.140 to web (x.153)
 
-- landscape toolbox (x.157)
-  - [ ] migrate from k8s (x.140) to learn (x.157)
-    - [ ] download physical backup of site
-    - [ ] update netreg entry from x.140 to web (x.153)
+- landscape toolbox (x.156)
+  - [x] migrate from k8s (x.140) to learn (x.156)
+    - [x] download physical backup of site
+    - [x] update netreg entry from x.140 to web (x.153)
 
 - apps (x.159)
   - [x] migrate from swb-apps (x.169) to apps (x.159)
-    - [ ] update apache entry on x.139 
+    - [x] update apache entry on x.139 
 
 - rap (x.175) 
   - [ ] migrate from LDC2 (x.184) to rap (x.175)
