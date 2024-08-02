@@ -3,8 +3,8 @@
   - [x] create sidecar docker in docker compose file
   - [x] determine if there is any port access issue between x.174 and github. Does it have to be proxied by web (x.153)?
   - [x] create runner with sidecar
-    - [ ] migrate JER runner from x.187 to x.174
-    - [ ] migrate LDC runner from x.184 to x.174 
+    - [x] migrate JER runner from x.187 to x.174
+    - [x] migrate LDC runner from x.184 to x.174 
 
 - RMA/AGRisk (x.148)
   - [x] resolve script to update db 
@@ -37,6 +37,11 @@
   - [x] migrate from k8s (x.140) to learn (x.156)
     - [x] download physical backup of site
     - [x] update netreg entry from x.140 to web (x.153)
+    
+- western snow conf (x.217)
+  - [x] migrate from k8s (x.140) to learn (x.217)
+    - [x] download physical backup of site
+    - [x] update netreg entry from x.140 to web (x.217)
 
 - apps (x.159)
   - [x] migrate from swb-apps (x.169) to apps (x.159)
